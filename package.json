@@ -1,0 +1,11 @@
+{
+  "name": "flat-object",
+  "version": "0.0.1",
+  "description": "Utilities for working with nested data structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
