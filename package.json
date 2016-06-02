@@ -2,7 +2,7 @@
   "name": "flat-object",
   "version": "0.0.1",
   "description": "Utilities for working with nested data structures",
-  "main": "index.js",
+  "main": "dist/flat-object.js",
   "scripts": {
     "build": "npm run clean && NODE_ENV=production webpack --config webpack.config.dist.js --bail",
     "clean": "rimraf dist",

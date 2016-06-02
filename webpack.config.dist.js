@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   devtool: 'source-map',
   entry: [
-    './src/index.js'
+    './source/index.js'
   ],
   output: {
     path: 'dist',
@@ -18,7 +18,7 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'babel',
-        include: path.join(__dirname, 'src')
+        include: path.join(__dirname, 'source')
       }
     ]
   }
